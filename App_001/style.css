@@ -1,0 +1,26 @@
+
+body{
+    width: 100vw; height: 100vh;
+    display: flex; flex-direction: row;
+    flex-wrap: nowrap; justify-content: center;
+    align-items: center; overflow: hidden;
+    background-color: grey;
+}
+
+button{
+    width: 45px; height: 45px;
+    border-radius: 45px;
+    border: 5px solid white;
+    margin: 10px; cursor: pointer;
+}
+
+.Red{
+    background-color: red;
+}
+.Green{
+    background-color: green;
+}
+.Blue{
+    background-color: blue;
+}
+
